@@ -29,7 +29,7 @@
     Keep this a secret.
 """
 
-__author__ = 'pete.frisella@gmail.com (Pete Frisella)'
+__author__ = 'nzhouseofreps@gmail.com (NZ house of reps)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
@@ -39,7 +39,7 @@ AUTH_CONFIG = {
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
     'OAUTH_REDIRECT_URI': '%s%s' % (
-        'https://REPLACE_THIS_WITH_YOUR_APPLICATION_NAME.appspot.com OR http://localhost:8080',
+        'https://parliamentanalytics-159403.appspot.com',
         '/admin/auth')
 }
 
