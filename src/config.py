@@ -33,8 +33,8 @@ __author__ = 'nzhouseofreps@gmail.com (NZ house of reps)'
 
 # OAuth 2.0 Client Settings
 AUTH_CONFIG = {
-    'OAUTH_CLIENT_ID': 'REPLACE THIS WITH YOUR CLIENT ID',
-    'OAUTH_CLIENT_SECRET': 'REPLACE THIS WITH YOUR CLIENT SECRET',
+    'OAUTH_CLIENT_ID': '742357081841-gdovo1s4nb7ucc4cs446bj4n34bn7c04.apps.googleusercontent.com',
+    'OAUTH_CLIENT_SECRET': 'zy0fp9UkE0UbPwfoV_lE8A6J',
 
     # E.g. Local Dev Env on port 8080: http://localhost:8080
     # E.g. Hosted on App Engine: https://your-application-id.appspot.com
@@ -44,4 +44,4 @@ AUTH_CONFIG = {
 }
 
 # XSRF Settings
-XSRF_KEY = 'REPLACE THIS WITH A SECRET PHRASE THAT SHOULD NOT BE SHARED'
+XSRF_KEY = 'fghfghgfhfghfghhhhvcxcvxcvhhcxvxcvhh'
