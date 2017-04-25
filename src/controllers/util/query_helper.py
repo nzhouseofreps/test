@@ -392,7 +392,7 @@ def GetPublicEndpointResponse(
   if response and response.get('api_query') and response.get('content'):
     api_query = response.get('api_query')
     response_content = response.get('content')
-    transformed_response_content = response.get('transformed_content')
+    transformed_response_content = transform.Transform(response_content)
     response_status = 200
   else:
     api_query = GetApiQuery(query_id)
